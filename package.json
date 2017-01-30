@@ -4,7 +4,8 @@
   "description": "Homage to Homage to the Square ==============================",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "github-markdown README.md > index.html",
+    "deploy": "npm rin build; gh-pages -d ./"
   },
   "repository": {
     "type": "git",
