@@ -1,0 +1,31 @@
+.grandfather {
+  background: steelblue;
+  width: 400px;
+  height: 400px;
+  padding: 70px 50px 30px 50px;
+  margin: 5% auto;
+}
+
+.parent {
+  background: rgb(140, 190, 90);
+  width: 100%;
+  height: 100%;
+  padding: 1% 0;
+}
+
+.child {
+  position: relative;
+  background: #228855;
+  width: 80%;
+  height: 80%;
+  margin: 16% 10% 4% 10%;
+}
+
+.grandchild {
+  background: rgba(50, 70, 200, 0.5);
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  left: 15%;
+  top: 23%;
+}
