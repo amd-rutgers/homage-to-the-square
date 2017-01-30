@@ -1,0 +1,19 @@
+{
+  "name": "homage-to-the-square",
+  "version": "1.0.0",
+  "description": "Homage to Homage to the Square ==============================",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amd-rutgers/homage-to-the-square.git"
+  },
+  "author": "Andy Dayton <amdayton@gmail.com> (http://andydayton.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amd-rutgers/homage-to-the-square/issues"
+  },
+  "homepage": "https://github.com/amd-rutgers/homage-to-the-square#readme"
+}

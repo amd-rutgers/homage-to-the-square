@@ -1,0 +1,24 @@
+.grandparent {
+  background: darkgrey;
+  border: 50px solid black;
+  border-width: 70px 45px 20px 45px;
+  width: 400px;
+  height: 400px;
+}
+
+.parent {
+  position: relative;
+  background: grey;
+  width: 80%;
+  height: 80%;
+  margin: 15% 10% 5% 10%;
+}
+
+.child {
+  background: lightgrey;
+  position: absolute;
+  width: 74%;
+  height: 74%;
+  left: 13%;
+  top: 19%;
+}

@@ -1,0 +1,24 @@
+.grandparent {
+  border: 50px solid steelblue;
+  background: rgb(140, 190, 90);
+  border-width: 70px 45px 20px 45px;
+  width: 400px;
+  height: 400px;
+}
+
+.parent {
+  position: relative;
+  background: #228855;
+  width: 80%;
+  height: 80%;
+  margin: 15% 10% 5% 10%;
+}
+
+.child {
+  background: rgba(50, 70, 200, 0.5);
+  position: absolute;
+  width: 74%;
+  height: 74%;
+  left: 13%;
+  top: 19%;
+}
